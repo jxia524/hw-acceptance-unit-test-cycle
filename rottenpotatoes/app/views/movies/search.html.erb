@@ -1,0 +1,10 @@
+<h2>Similar Movies page for #{@movie.title}</h2>
+<ul id="similars">
+    <% @sameDirector.each do |movie| %>
+        <tr>
+            <td>
+              <%= movie %>
+            </td>
+        </tr>
+    <% end %>
+</ul>

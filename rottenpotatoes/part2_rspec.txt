@@ -1,0 +1,15 @@
+
+MoviesController
+  finds movies with same director
+  does not find movies with same director
+
+Movie
+  should find movies by the same director
+  should not find movies by the same director
+
+1 deprecation warning total
+
+Finished in 0.04747 seconds (files took 1.62 seconds to load)
+4 examples, 0 failures
+
+Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 37 / 45 LOC (82.22%) covered.

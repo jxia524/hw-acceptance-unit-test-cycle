@@ -8,6 +8,6 @@ describe Movie do
     end
     it "should not find movies by the same director" do
         Movie.create(title: "Star Wars", director: '')
-       expect(Movie.sameDirector('')).to eql(nil)
+       expect(Movie.sameDirector('Star Wars')).to eql(nil)
     end
 end
